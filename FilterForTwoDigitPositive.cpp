@@ -1,4 +1,4 @@
-#include"FilterForTwoDigitPostitive.h"
+#include"FilterForTwoDigitPositive.h"
 
 std::vector<int> FilterForTwoDigitPositive::filter(std::vector<int>a){
     std::vector<int> ans;

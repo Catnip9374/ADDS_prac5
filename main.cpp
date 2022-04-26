@@ -2,7 +2,7 @@
 
 #include "MapTriple.h"
 #include"MapAbsoluteValue.h"
-#include"FilterForTwoDigitPostitive.h"
+#include"FilterForTwoDigitPositive.h"
 #include"FilterOdd.h"
 #include"ReduceMinimum.h"
 #include"ReduceGCD.h"
@@ -13,7 +13,7 @@ using namespace std;
 
 int main(){
     // ={6,-11,53,-16,73,128,105,104,-71,-179,102,12,21,-145,-99,199,-156,-186,43,-189}
-    vector<int> t;
+    vector<int> t={6,-11,53,-16,73,128,105,104,-71,-179,102,12,21,-145,-99,199,-156,-186,43,-189};
     
     int num;
     string str;
